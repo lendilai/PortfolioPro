@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lexend+Deca|Livvic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.55)), url("images/bg.net-resizeimage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ================ NAVBAR ================= */
+nav ul {
+  text-decoration: none;
+  z-index: 500;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 2% 2%;
+  font-size: 27px;
+}
+
+nav ul li:first-child {
+  float: left;
+  margin: 2% 65% 0 5%;
+  font-size: 27px;
+  letter-spacing: 4px;
+  font-family: "Livvic";
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: grey;
+  transition: 0.4s;
+}
+
+.fa-linkedin:hover {
+  color: #4875B4;
+  transition: 0.4s;
+}
+
+.fa-envelope:hover {
+  color: #C63D2D;
+  transition: 0.4s;
+}
+
+.fa-github:hover {
+  color: grey;
+  transition: 0.4s;
+}
+
+/*================== NAVBAR-END ===================*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*++++++++++++++++++++++++++++++++++++++++++++++++  */
+/*======================= INTRO ======================  */
+.myName {
+  font-size: 75px;
+  font-family: "Lexend Deca";
+  margin-left: 10%;
+  margin-top: 5%;
+  letter-spacing: 8px;
+}
+
+.hr1 {
+  border: 2px solid #228B22;
+  width: 20%;
+  border-radius: 50px;
+  margin-left: 13%;
+  margin-top: 5%
+}
+
+.hr2 {
+  border: 2px solid #228B22;
+  width: 20%;
+  border-radius: 50px;
+  margin-left: 23%;
+}
+
+.myDesc {
+  margin-left: 10%;
+  font-family: "Livvic";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10%;
+}
+
+.portfolio {
+  background: rgba(0, 100, 0, 0.89);
+  height: 70%;
+  border-radius: 50%;
+  margin: 35% 0 0 45%;
+}
+
+.portfolioText {
+  margin-left: -20%;
+  padding-top: 38%;
+  font-family: "Livvic";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+/*========================INTRO-END===================  */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+/*========================ABOUT-ME====================  */
+.aboutSection {
+  margin-top: 21%;
+  height: 100vh;
+}
+
+.aboutMe {
+  font-family: "Lexend Deca";
+  font-size: 75px;
+  margin-left: 10%;
+  letter-spacing: 10px;
+}
+
+.myDesc2 {
+  margin-left: 10%;
+  font-family: "Livvic";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10%;
+  letter-spacing: 4px;
+}
+
+.moreButton {
+  background-color: #228B22;
+  border: 0;
+  width: 35%;
+  padding: 14px 2px 14px 2px;
+  font-size: 16px;
+  font-family: "Livvic";
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 30px;
+  margin: 7% 0 0 10%;
+}
+
+.moreButton:hover {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  box-shadow: inset 0 0 0 2px #228B22;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.modal-body {
+  background-color: #228B22;
+  color: black;
+  text-align: center;
+}
+
+.firstModalP {
+  margin-top: 10%;
+}
+
+.modal-body p {
+  text-align: left;
+  color: white;
+  font-family: "Livvic";
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.modal-header h5, span {
+  color: black;
+}
+
+.modal-header h5 {
+  margin-left: 40%;
+}
+
+.myPic {
+  width: 26%;
+  margin-bottom: -10%;
+  z-index: 500;
+}
+
+#closeButton {
+  padding: 8px 4px 8px 4px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 17%;
+  font-family: "Livvic";
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  border-radius: 30px;
+  float: right;
+}
+
+#closeButton:hover {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  box-shadow: inset 0 0 0 2px white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.innovate {
+  width: 100%;
+  height: 100%;
+}
+
+.view {
+  width: 90%;
+  height: 50%;
+  border-radius: 7px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.maskText {
+  font-family: "Livvic";
+  font-size: 35px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/*=============================ABOUT-SECTION-END======================*/
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =============================SKILLS-SECTION======================= */
+.skillsBody {
+  text-align: left;
+}
+
+.skillsBody h4 {
+  font-family: "Livvic";
+  font-weight: bold;
+}
+
+.skillsBody h4:first-child {
+  margin-top: 15%;
+}
+
+.languages {
+  text-align: center;
+  margin-top: 11%;
+  padding-top: 5%;
+  background-color: rgba(211, 211, 211, 0.95);
+  border-radius: 10px;
+}
+
+.languageIcons {
+  height: 82%;
+  width: 77%;
+  padding: 5px;
+}
+
+.languageIcons2 {
+  height: 75%;
+  width: 42%;
+  padding: 5px;
+}
+
+.languageIcons:hover {
+  box-shadow: 4px 4px 4px grey, -4px 0 4px grey;
+  border-radius: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.languageIcons2:hover {
+  box-shadow: 4px 4px 4px grey, -4px 0 4px grey;
+  border-radius: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*=========================SKILLS-END================*/
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ========================PROJECTS================= */
+.projectSection {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+#btnLink {
+  padding: 14px;
+  color: white;
+}
+
+.projectPics {
+  margin-top: 9%;
+  padding-left: 9%;
+}
+
+.projectImg {
+  width: 110%;
+  margin: 4%;
+  border-radius: 7px;
+  transform: rotateZ(-5deg);
+}
+
+.pigDice, .tracker, .musica {
+  margin-top: -10%;
+}
+
+.tracker {
+  cursor: pointer;
+}
+
+.bookGrao:hover {
+  cursor: pointer;
+}
+
+.pigDice {
+  cursor: pointer;
+}
+
+.musica:hover {
+  cursor: pointer;
+}
+
+.orgApi:hover {
+  cursor: pointer;
+}
+
+.gitSearch {
+  cursor: pointer;
+}
+
+.skillsBody h2 {
+  font-family: "Livvic";
+  font-weight: bold;
+}
+
+#checkOut {
+  text-align: center;
+  font-family: "Livvic";
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 14px 10px 14px;
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+}
+
+.git {
+  margin-left: 2%;
+  color: black;
+}
+
+#checkOut:hover {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  box-shadow: inset 0 0 0 2px white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contactImage {
+  height: 70%;
+}
+
+.contactsText p {
+  font-family: "Livvic";
+  margin-left: 10%;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.contactSection {
+  margin-bottom: 12%;
+}
+
+/*================== MEDIA QUERIES ==================  */
+@media screen and (max-width: 800px) {
+  nav ul li:first-child {
+    margin-right: 20%;
+  }
+
+  nav ul li {
+    font-size: 24px;
+  }
+}
